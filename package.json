@@ -1,0 +1,28 @@
+{
+  "name": "react-native-get-channel",
+  "version": "1.0.0",
+  "description": "React Native bridging library for android to get app channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1556173267/react-native-get-channel.git"
+  },
+  "keywords": [
+    "android",
+    "channel",
+    "react-native",
+    "react"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "superhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1556173267/react-native-get-channel/issues"
+  },
+  "homepage": "https://github.com/1556173267/react-native-get-channel#readme"
+}

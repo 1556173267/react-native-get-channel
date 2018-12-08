@@ -33,7 +33,7 @@ public class GetChannelModule extends ReactContextBaseJavaModule {
                 ApplicationInfo applicationInfo = packageManager.getApplicationInfo(getReactApplicationContext().getPackageName(), PackageManager.GET_META_DATA);
                 if (applicationInfo != null) {
                     if (applicationInfo.metaData != null) {
-                        resultData = applicationInfo.metaData.getString(key);
+                        resultData = applicationInfo.metaData.get(key).toString();
                     }
                 }
             }
